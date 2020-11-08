@@ -179,7 +179,7 @@ function calculator(button){
         data.result =[];
 
         data.operation.push(result);
-        data.result.push(result);
+        data.result.push(result);   
 
     }
     updateOutputOperation(data.operation.join(''));
