@@ -3,11 +3,13 @@
     margin: 0;
     background-origin: padding-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 html{
     font-size: 16px;
-    background-color: #636363;
+    background-color: #272626;
+    
 }
 
 .calculator{
@@ -25,7 +27,7 @@ html{
     width: 300px;
     height: auto;
 
-    border-radius: 0 0 30px 30px;
+    border-radius: 30px 30px 30px 30px;
 }
 
 .output{
@@ -35,8 +37,9 @@ html{
 .operation{
     width: 300px;
     height: 70px;
+    border-bottom: solid white 2px;
 
-    color: #878787;
+    color: white;
 
     font-size: 1.9em;
     font-weight: bold;
@@ -80,11 +83,12 @@ html{
 
 
 .input{
-    background-color: #FFF;
+    background-color: #1d1d1d;
 
     border-radius: 0 0 25px 25px;
     border: 1px solid #1d1d1d;
     height: 340px;
+    
 }
 
 .row {
@@ -104,6 +108,7 @@ html{
     background-color: transparent;
 
     margin : 8px;
+    color: white;
 
     cursor: pointer;
 }
@@ -114,7 +119,7 @@ html{
 
 .row #calculate{
     color: #FFF;
-    background-color: #46e0bc;
+    background-color:  #e05046;
     width : 121px;
     border-radius: 50px;
 }
@@ -124,5 +129,5 @@ html{
 }
 
 #division, #multiplication, #subtraction, #addition {
-    color: #18b893;
+    color:  #e05046;
 }
